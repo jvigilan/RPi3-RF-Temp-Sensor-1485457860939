@@ -10,6 +10,3 @@ applications:
   - availability-monitoring-auto
   - RPi3-RF-Temp-Sensor-cloudantNoSQLDB
   - RPi3-RF-Temp-Sensor-iotf-service
-  env:
-    NODE_RED_USERNAME: jvigilan
-    NODE_RED_PASSWORD: ********
