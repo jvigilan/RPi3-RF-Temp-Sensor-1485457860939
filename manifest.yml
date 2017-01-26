@@ -1,0 +1,15 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: RPi3-RF-Temp-Sensor
+  host: RPi3-RF-Temp-Sensor
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
+  - RPi3-RF-Temp-Sensor-cloudantNoSQLDB
+  - RPi3-RF-Temp-Sensor-iotf-service
+  env:
+    NODE_RED_USERNAME: jvigilan
+    NODE_RED_PASSWORD: suzanh1v
