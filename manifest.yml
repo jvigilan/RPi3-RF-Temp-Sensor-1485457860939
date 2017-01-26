@@ -12,4 +12,4 @@ applications:
   - RPi3-RF-Temp-Sensor-iotf-service
   env:
     NODE_RED_USERNAME: jvigilan
-    NODE_RED_PASSWORD: suzanh1v
+    NODE_RED_PASSWORD: ********
